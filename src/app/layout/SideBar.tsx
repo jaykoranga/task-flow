@@ -17,7 +17,7 @@ const SideBar = ({closeSidebar}:SidebarProps) => {
   const t = theme === 'dark' ? darkTheme : lightTheme;
 
   const navLinks: NavlinksType[] = [
-    { to: '/dashboard', icon: <LayoutDashboard size={18} />, label: 'Dashboard' },
+    { to: '/', icon: <LayoutDashboard size={18} />, label: 'Dashboard' },
     { to: '/tasks',     icon: <ClipboardList size={18} />,   label: 'Tasks'     },
     { to: '/task/create', icon: <SquarePen size={18} />,     label: 'Create Task'},
   ];
